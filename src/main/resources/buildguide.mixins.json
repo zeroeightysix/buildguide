@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.zeroeightsix.buildguide.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinGameRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

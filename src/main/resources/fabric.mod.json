@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "buildguide",
+  "version": "${version}",
+
+  "name": "Build guide",
+  "description": "Draws things to help you build mathematical things.",
+  "authors": [
+    "086"
+  ],
+  "contact": {
+    "sources": "https://github.com/zeroeightysix/buildguide"
+  },
+
+  "license": "LGPL-3.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.zeroeightsix.buildguide.BuildGuide"
+    ],
+    "cotton-client-commands":  [
+      "me.zeroeightsix.buildguide.BuildGuide"
+    ]
+  },
+  "mixins": [
+    "buildguide.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*",
+    "cotton-client-commands": ">=0.4.2"
+  }
+}
