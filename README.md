@@ -13,3 +13,8 @@
 ```
 ./gradlew build
 ```
+
+## Commands
+`/buildguide`
+
+e.g: `/buildguide add sphere 5`
